@@ -1,0 +1,28 @@
+/* Style Generator */
+
+/* Main Color Items */
+
+/* BGCOLOR */
+.header, .grid-item, .grid-item .overlay, .footer, .cta-widget .button, .blog-title, .meta-bar   {
+	background-color: #3B2525;
+}
+
+/* COLOR */
+
+.centered-text-widget h2, .rd-more a {
+	color:#3B2525;
+}
+
+/* Accent Color Items */
+
+/* BGCOLOR */
+
+.grid-item img.zoom, .cta-widget h3, .blog-meta {
+	background-color: #C2B44C;
+}
+
+/* COLOR */
+
+.widget-list ul li:before {
+	color: #C2B44C;
+}

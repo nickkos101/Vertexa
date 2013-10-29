@@ -2,8 +2,8 @@
 <div class="content">
 	<div class="container">
 		<div class="left-hand">
-			<div class="single-blog-post">
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<div class="blog-post">
 				<div class="ft-img">
 					<?php if ( has_post_thumbnail() ) {
 						the_post_thumbnail();
@@ -26,12 +26,12 @@
 						<?php comments_number( '0 comments', '1 comment', '% comments' ); ?>
 					</div>
 					<div class="rd-more">
-						<a href="">Leave a Reply</a>
+						<a href="<?php the_permalink(); ?>">Read More</a>
 					</div>
-				<?php endwhile; endif; ?>
+				</div>
 			</div>
-		</div>
+		<?php endwhile; endif; ?>
 	</div>
-	<?php get_sidebar(); ?>
+	<?php include 'sidebar.php'; ?>
 </div>
 <?php include 'footer.php'; ?>

@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Contact Us Page
+*/
+?>
 <?php include 'header.php'; ?>
 <div class="content">
 	<div class="container">

@@ -1,3 +1,12 @@
+/*
+Theme Name: Vertexa
+Theme URI: http://businessonmarketst.com
+Description: A Modular Theme, provided by BMS Express.
+Author: Nicholas Koskowski
+Version: 1.0
+Tags: multi-color, small business, corporate
+*/
+
 .container {
 	max-width: 960px;
 	margin-left: auto;
@@ -12,10 +21,15 @@ p, ul, ol {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
 .header {
 	width:100%;
 	height:80px;
-	background-color: #25383b;
+	
 	padding-top:5px;
 	padding-bottom: 5px;
 	position: fixed;
@@ -96,11 +110,12 @@ p, ul, ol {
 	text-align: center;
 	float: left;
 	width:100%;
+	background-color: #eee;
 }
 
 .centered-text-widget h2 {
 	font-size:32px;
-	color: #25383b;
+	
 }
 
 .grid-wrap {
@@ -155,7 +170,7 @@ p, ul, ol {
 	position: relative;
 	padding:10px;
 	border-radius:32px;
-	background-color: #c24c4c;
+	
 	margin-top:10px;
 }
 
@@ -217,7 +232,7 @@ p, ul, ol {
 .cta-widget .button {
 	clear: both;
 	display: inline-block;
-	background-color: #25383b;
+	
 	border-radius: 10px;
 	color:#fff;
 	padding:20px;
@@ -228,6 +243,8 @@ p, ul, ol {
 .left-hand {
 	float:left;
 	max-width:640px;
+	width: 100%;
+	overflow: hidden;
 	color: #333;
 }
 
@@ -306,6 +323,11 @@ p, ul, ol {
 	padding:0px;
 }
 
+.widget-list li {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
 .widget-list ul {
 	list-style-type: none;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -317,7 +339,7 @@ p, ul, ol {
 }
 
 .widget-list ul li:before {
-	color: #c24c4c;
+	
 	font-size: 9px;
 	content: "\25BA \0020";
 	position: absolute;
@@ -339,6 +361,16 @@ p, ul, ol {
 .ft-img img {
 	position: absolute;
 	z-index:-1;
+}
+
+.single-blog-post {
+	float: left;
+	width: 100%;
+}
+
+.blog-post {
+	float:left;
+	width: 100%;
 }
 
 .blog-title {
@@ -365,28 +397,43 @@ p, ul, ol {
 	font-weight: bold;
 }
 
-.rd-more {
+.meta-bar {
 	text-transform: uppercase;
-	background-color: #25383b;
+	
 	font-weight: bold;
 	color:#fff;
-	padding:15px;
+	padding:5px;
+	float:left;
+	width: 100%;
+}
+
+.share-this-widget {
+	float:left;
+	padding-left:10px;
+}
+
+.share-this-widget img {
+	padding:5px;
+}
+
+.comment-count {
+	float:left;
+	padding-top:12px;
+	padding-left:30px;
+}
+
+.rd-more {
+	float:right;
+	background-color:#fff;
+	padding:10px;
+	font-weight: bold;
+	margin-top:3px;
+	margin-right:12px;
 }
 
 .rd-more a {
-	padding-top:8px;
-	float: right;
-	color:#fff;
+	
 	text-decoration: none;
-}
-
-.share-it-widget {
-	display: inline;
-	vertical-align: middle;
-}
-
-.share-it-widget img {
-	padding: 10px;
 }
 
 ::-webkit-input-placeholder {
