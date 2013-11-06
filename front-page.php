@@ -6,6 +6,15 @@ Template Name: Home Page
 <?php get_header(); ?>
 <div class="content">
 	<div class="slider">
+		<div class="cta-widget">
+			<div class="container">
+				<h3>Don't you want to look sweet?</h3>
+				<br/>
+				<div class="button">
+					BMS Express is pretty sweet.
+				</div>
+			</div>
+		</div>
 		<div class="paralax">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/slider-img-1.jpg">
 		</div>

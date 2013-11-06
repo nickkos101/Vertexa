@@ -429,6 +429,7 @@ a {
 	font-weight: bold;
 	margin-top:3px;
 	margin-right:12px;
+	cursor: pointer;
 }
 
 .rd-more a {
@@ -454,6 +455,29 @@ a {
 :-ms-input-placeholder { 
 	font-family: 'Open Sans', Arial, sans-serif; 
 	color: #000;  
+}
+
+.comments {
+	float: left;
+	width: 100%;
+	display: none;
+	padding-top:25px;
+}
+
+.comments p {
+	margin:0px;
+}
+
+.comment-notes {
+	display: none;
+}
+
+.form-allowed-tags {
+	display: none;
+}
+
+.comment-reply-title {
+	display: none;
 }
 
 @media (max-width: 975px) {

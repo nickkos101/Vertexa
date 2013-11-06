@@ -4,13 +4,13 @@
 
 /* BGCOLOR */
 .header, .grid-item, .grid-item .overlay, .footer, .cta-widget .button, .blog-title, .meta-bar   {
-	background-color: #3B2525;
+	background-color: #272727;
 }
 
 /* COLOR */
 
-.centered-text-widget h2, .rd-more a {
-	color:#3B2525;
+.centered-text-widget h2, .rd-more a, .rd-more {
+	color:#272727;
 }
 
 /* Accent Color Items */
@@ -18,11 +18,11 @@
 /* BGCOLOR */
 
 .grid-item img.zoom, .cta-widget h3, .blog-meta {
-	background-color: #C2B44C;
+	background-color: #BE0000;
 }
 
 /* COLOR */
 
 .widget-list ul li:before {
-	color: #C2B44C;
+	color: #BE0000;
 }

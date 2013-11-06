@@ -1,5 +1,10 @@
 <?php 
 
+//Autocracy Dependencies
+
+//Widget Dependencies
+include 'widgets/centered-text-widget.php'; 
+
 //Theme Supports
 
 add_theme_support( 'post-thumbnails' );

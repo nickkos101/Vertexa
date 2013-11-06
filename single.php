@@ -26,10 +26,13 @@
 						<?php comments_number( '0 comments', '1 comment', '% comments' ); ?>
 					</div>
 					<div class="rd-more">
-						<a href="">Leave a Reply</a>
+						Leave a Reply
 					</div>
-				<?php endwhile; endif; ?>
-			</div>
+				</div>
+				<div class="comments">
+					<?php comments_template(); ?>
+				</div>
+			<?php endwhile; endif; ?>
 		</div>
 	</div>
 	<?php get_sidebar(); ?>
