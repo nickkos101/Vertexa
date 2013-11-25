@@ -105,4 +105,17 @@
 		</div>
 	</div>
 </div>
+<div class="three-col-widget">
+	<div class="container">
+		<div class="three-col">
+			<h3>Blog</h3>
+		</div>
+		<div class="three-col">
+			<h3>Contact</h3>
+		</div>
+		<div class="three-col">
+			<h3>Asss</h3>
+		</div>
+	</div>
+</div>
 <?php get_footer(); ?>

@@ -9,10 +9,6 @@ Template Name: Home Page
 		<div class="cta-widget">
 			<div class="container">
 				<h3>Don't you want to look sweet?</h3>
-				<br/>
-				<div class="button">
-					BMS Express is pretty sweet.
-				</div>
 			</div>
 		</div>
 		<div class="paralax">
@@ -95,23 +91,40 @@ Template Name: Home Page
 			</div>
 		</div>
 	</div>
-</div>
-<div class="divider-widget"></div>
-<div class="centered-text-widget">
-	<div class="container">
-		<h2>This is content for the theme!</h2>
-		<p>Take a look at the content below.</p>
-	</div>
-</div>
-<div class="divider-widget"></div>
-</div>
-<div class="cta-widget">
-	<div class="container">
-		<h3>Don't you want to look sweet?</h3>
-		<br>
-		<div class="button">
-			Sign Up Today!
+	<div class="divider-widget"></div>
+	<div class="centered-text-widget">
+		<div class="container">
+			<h2>This is content for the theme!</h2>
+			<p>Take a look at the content below.</p>
 		</div>
 	</div>
-</div>
-<?php get_footer(); ?>
+	<div class="divider-widget"></div>
+	<div class="cta-widget">
+		<div class="container">
+			<h3>Don't you want to look sweet?</h3>
+			<br>
+			<div class="button">
+				Sign Up Today!
+			</div>
+		</div>
+	</div>
+	<div class="three-col-widget">
+		<div class="container">
+			<div class="three-col">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.png">
+				<h3>Blog</h3>
+				<p>Suspendisse ultricies, purus quis tempus malesuada, orci nisi consequat turpis, at auctor lacus dolor quis metus.</p>
+			</div>
+			<div class="three-col">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.png">
+				<h3>Contact</h3>
+				<p>Suspendisse ultricies, purus quis tempus malesuada, orci nisi consequat turpis, at auctor lacus dolor quis metus.</p>
+			</div>
+			<div class="three-col">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.png">
+				<h3>Asss</h3>
+				<p>Suspendisse ultricies, purus quis tempus malesuada, orci nisi consequat turpis, at auctor lacus dolor quis metus.</p>
+			</div>
+		</div>
+	</div>
+	<?php get_footer(); ?>

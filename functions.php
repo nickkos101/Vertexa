@@ -12,7 +12,7 @@ add_theme_support( 'menus' );
 
 register_nav_menus( array(
 	'Header_Nav' => 'Header Navigation Area',
-) );
+	) );
 
 //Register Sidebar
 
@@ -31,5 +31,19 @@ function vertexa_widgets() {
 }
 
 add_action('widgets_init', 'vertexa_widgets');
+
+function vertexa_create_post_type() {
+	register_post_type('products', array(
+		'labels' => array(
+			'name' => __('products'),
+			'singular_name' => __('product')
+			),
+		'public' => true,
+		'has_archive' => true,
+		'rewrite' => array('slug' => 'products'),
+		)
+	);
+}
+add_action('init', 'vertexa_create_post_type');
 
 ?>

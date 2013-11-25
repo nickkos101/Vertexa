@@ -2,9 +2,10 @@
 <head>
 	<title><?php bloginfo('name'); wp_title(); ?></title>
 	<?php wp_head(); ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/normalize.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/gen-css.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/gen-css.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bbpress.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Share+Tech|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/function.js"></script>
